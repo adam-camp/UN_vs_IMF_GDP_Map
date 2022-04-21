@@ -19,7 +19,9 @@ require([
   
       var view = new MapView({
         map: webmap,
-        container: "viewDiv"
+        container: "viewDiv",
+        center: [0,-1],
+        zoom: 1
       });
       
       view.when(function() {
